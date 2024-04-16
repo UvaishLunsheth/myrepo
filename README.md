@@ -84,6 +84,8 @@ This README section outlines the data wrangling steps conducted in the lab.
 - **Describe Tables**: Retrieve information about the structure of tables such as column names, data types, and constraints.
 
 - **Close the Connection**: Close the connection to the database using the `conn.close()` method to free up resources.
+
+Ensure all these processes are performed within a Jupyter Notebook environment for seamless execution and analysis.  
   
 
 ## Data Visualization
