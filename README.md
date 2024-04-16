@@ -76,13 +76,17 @@ This README section outlines the data wrangling steps conducted in the lab.
 ## Database Interaction
 
    - Utilize `sqlite3.connect()` method to establish a connection to the database file.
+   - 
 	• **Run SQL Queries**: 
    - Execute SQL queries using `pd.read_sql_query()` method to retrieve data from the database.
+   - 
 	• **List Tables**: 
    - Use SQL query to list all tables available in the database.
+   - 
 	• **Describe Tables**: 
    - Retrieve information about the structure of tables such as column names, data types, and constraints.
-	• **Close the Connection**: 
+	
+• **Close the Connection**: 
    - Close the connection to the database using `conn.close()` method to free up resources.
 
 ## Data Visualization
