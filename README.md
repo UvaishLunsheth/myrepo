@@ -1,4 +1,4 @@
-# Web Scraping:
+# Web Scraping
 
 This Web Scrapping involves scraping data about programming languages and their average annual salaries from a provided website and saving it into a CSV file.
 
@@ -45,7 +45,7 @@ import pandas as pd
 
 ### Outliers
 
-- **Box Plot of Converted Compensation**
+- **highlight outliers with the help of Box Plot of Converted Compensation**
 - Interquartile Range (IQR) for Converted Compensation: $73,132
 - Number of Outliers in ConvertedComp Column: 879
 
