@@ -75,7 +75,6 @@ This README section outlines the data wrangling steps conducted in the lab.
 
 ## Database Interaction
 
-	• **Connect to a Database**: 
    - Utilize `sqlite3.connect()` method to establish a connection to the database file.
 	• **Run SQL Queries**: 
    - Execute SQL queries using `pd.read_sql_query()` method to retrieve data from the database.
@@ -90,9 +89,9 @@ This README section outlines the data wrangling steps conducted in the lab.
 
 
 Ensure the following libraries are installed:
-import matplotlib.pyplot as plt
+***import matplotlib.pyplot as plt
 import seaborn as sns
-%matplotlib inline
+%matplotlib inline****
 - Plot histograms and box plots to visualize data distribution.
 - Generate scatter plots and bubble plots to explore relationships.
 - Create pie charts and stacked charts to analyze composition.
