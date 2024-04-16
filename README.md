@@ -87,13 +87,17 @@ This README section outlines the data wrangling steps conducted in the lab.
 
 ## Data Visualization
 
-
-Ensure the following libraries are installed:
-***import matplotlib.pyplot as plt
-import seaborn as sns
-%matplotlib inline****
 - Plot histograms and box plots to visualize data distribution.
 - Generate scatter plots and bubble plots to explore relationships.
 - Create pie charts and stacked charts to analyze composition.
 - Design line charts and bar charts to compare data.
-```
+
+Ensure the following libraries are installed:
+
+
+```bash
+!pip install matplotlib seaborn
+import matplotlib.pyplot as plt
+import seaborn as sns
+%matplotlib inline 
+
