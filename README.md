@@ -75,10 +75,24 @@ This README section outlines the data wrangling steps conducted in the lab.
 
 ## Database Interaction
 
-- Connect to a database, run SQL queries, list tables, describe tables, and close the connection in a Jupyter notebook.
+	• **Connect to a Database**: 
+   - Utilize `sqlite3.connect()` method to establish a connection to the database file.
+	• **Run SQL Queries**: 
+   - Execute SQL queries using `pd.read_sql_query()` method to retrieve data from the database.
+	• **List Tables**: 
+   - Use SQL query to list all tables available in the database.
+	• **Describe Tables**: 
+   - Retrieve information about the structure of tables such as column names, data types, and constraints.
+	• **Close the Connection**: 
+   - Close the connection to the database using `conn.close()` method to free up resources.
 
 ## Data Visualization
 
+
+Ensure the following libraries are installed:
+import matplotlib.pyplot as plt
+import seaborn as sns
+%matplotlib inline
 - Plot histograms and box plots to visualize data distribution.
 - Generate scatter plots and bubble plots to explore relationships.
 - Create pie charts and stacked charts to analyze composition.
