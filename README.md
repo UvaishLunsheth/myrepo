@@ -1,6 +1,7 @@
 # Web Scraping
 
 This Web Scrapping involves scraping data about programming languages and their average annual salaries from a provided website and saving it into a CSV file.
+
 **URL:** [Programming Languages Data](https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBM-DA0321EN-SkillsNetwork/labs/datasets/Programming_Languages.html)
 
 ## Steps
